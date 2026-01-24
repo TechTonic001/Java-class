@@ -70,15 +70,15 @@ public class Main {
     public static void main(String[] args) {
         Random rand = new Random();
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number between 0-50:");
+        System.out.println("Enter a number between 0-60:");
         int inputNum = input.nextInt();
-        int randomNum = rand.nextInt(50);
+        int randomNum = rand.nextInt(60);
 
         int i = 4;
         while (i > 0) {
             System.out.println("You have " + i + " attempts left.");
             if (inputNum == randomNum) {
-                System.out.println("You guessed the correct number!");
+                System.out.println("You are correct!");
                 break;
             } else {
                 System.out.println("Wrong guess. Try again:");

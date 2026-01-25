@@ -1,4 +1,4 @@
-public class Buzz {
+public class fizz {
     
     // Check if a number is even
     public static boolean isEven(int number) {

@@ -24,6 +24,7 @@ public class Score {
             "Congratulations to student " + studentIndex +
             "! He got the first position with a score of " + highestScore
         );
+        input.close();
     }
 }
 

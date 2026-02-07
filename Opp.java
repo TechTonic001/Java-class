@@ -1,32 +1,13 @@
-
-// public class Opp {
-//     string name;
-//     int age;
-//     string gender;
-
-//     public Opp (string name, int age, string gender) {
-//         this.name;
-//         this.age;
-//         this.gender;
-//     }
-// }
-
 class Human {
     int numberOfEyes = 2;
     int numberOfHeads = 1;
     int numberOfHands = 2;
     int numberOfLegs = 2;
     String converMaterial = "flesh";
-    // String superPower = 'Mind Reading';
-
-    // public String mySuperpower(){
-    //     return.this.superPower
-    // }
 }
 
 class InnerOpp extends Human {
     String name;
-    // int power;
     private int power;
 
     public InnerOpp(String name, int power) {
@@ -58,8 +39,8 @@ public class Opp {
         InnerOpp character3 = new InnerOpp("jerry", 60);
 
         character3.boostPower(10);
-        character3.boostPower(10);
-        character3.boostPower(50);
+        character2.boostPower(10);
+        character1.boostPower(50);
         System.out.println(character3.name + "has power of" + character3.getPower() + "%");
     }
 }
